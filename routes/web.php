@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function (){
-/*
+
 	Schema::create('art', function($newtable){   //$newtable is a closure parameter for the schema.
 
 		$newtable->increments('id');
@@ -25,12 +25,12 @@ Route::get('/', function (){
 
 	});
 	
-	Schema::table('art', function($newtable){
+	// Schema::table('art', function($newtable){
 
-		$newtable->boolean('alumni');
-		$newtable->dropColumn('exhibition_date');
-	});
- */
+	// 	$newtable->boolean('alumni');
+	// 	$newtable->dropColumn('exhibition_date');
+	// });
+ 
     return view('hello');
 });
 
